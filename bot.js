@@ -1,4 +1,4 @@
-//Автор данного бота - Бикбай (bicbai.ru)
+//Автор данного бота - Slava
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
@@ -70,4 +70,4 @@ client.on('guildMemberRemove', member => {
 });
 //--------------------------------------------------------------------
 
-client.login(config.token);
+bot.run(srt(token))
