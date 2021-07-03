@@ -70,4 +70,4 @@ client.on('guildMemberRemove', member => {
 });
 //--------------------------------------------------------------------
 
-bot.run(srt(token))
+bot.run(str(token))
